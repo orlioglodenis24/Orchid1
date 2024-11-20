@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/Style_tovar.css">
+    <link rel="stylesheet" href="../Style/styletest.css">
+  <link rel="stylesheet" href="../Style/styleVolna.css">
+  <link rel="icon" href="../img/capTop.png">
+  <link rel="stylesheet" href="../Style/adapt.css">
+
+    <title>Орхидея</title>
+</head>
+
+<body>
+
+            <div class="blockCapMenuOne">
+
+            <div class="listMenuBottom">
+              <a class="back_button" href="General.html"><img src="../Photos/arrow2.png" alt=""></a>
+                <div id="CategoriaTop" class="ClickMenu" ><a href="General.html" id="r123">Орхидея</a></div>
+                <div id="menuA">
+                <!-- <a href="" id="menuA1">Розы</a> -->
+                <!-- <div id="menuA1Dropdown" class="dropdown-content">
+                  <div class="menu-item">Роза "Красная" <span id="menuItemCont">$10</span></div>
+
+
+                  <div class="menu-item">Роза "Белая"  <span id="menuItemCont">$14</span></div>
+
+                  <div class="menu-item">Роза "Розовая"   <span id="menuItemCont">$17</span></div>
+
+
+                  <div class="menu-item">Роза "Синия"  <span id="menuItemCont">$24</span></div>
+
+                  <div class="menu-item">Роза "Черная"  <span id="menuItemCont">$19</span></div>
+
+                  <div class="menu-item">Роза "Изумрудная" -<span id="menuItemCont">$25</span></div>
+
+
+                  <div class="menu-item">Роза "Красная"  <span id="menuItemCont">$16</span></div>
+
+                  <div class="menu-item">Роза "Белая"  <span id="menuItemCont">$31</span></div>
+
+                  <div class="menu-item">Роза "Алая" <span id="menuItemCont">$23</span></div>
+
+                </div> -->
+                <a href="" id="AllListTop" >Растения</a><br>
+                <a href="" id="AllListTop">Букеты</a><br>
+                <a href="" id="AllListTop">Праздники</a><br>
+                <a href="" id="AllListTop">Подарки</a><br>
+                <div id="contact">
+                  <div class="group">
+                    <!-- <form action="">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Поиск товара" type="search" class="input12" name="input12">
+                   </form> -->
+
+
+                   <div class="title-container">
+                    <h1 class="title">Поиск...</h1>
+                    
+                  </div>
+                  
+                  <fieldset class="field-container">
+                    <input type="text" placeholder="Search..." class="field"/>
+                    <div class="icons-container">
+                      <div class="icon-search"></div>
+                      <div class="icon-close">
+                        <div class="x-up"></div>
+                        <div class="x-down"></div>
+                      </div>
+                    </div>
+                  </fieldset>
+                  </div>
+                </div>
+                </div>
+
+
+<script>
+   function displayInput() {
+     var userInput = document.querySelector(".input12").value;
+     document.getElementById("display").innerHTML ='' + userInput;
+ }
+</script>
+
+
+
+
+
+<div class="folz">
+  <div class="cart">
+  <h6>Корзина товаров</h6>
+    <div class="cart-items"></div>
+    <span class="empty-cart" id="lopf"></span>
+    <p class="cart-total" id="lopf">К оплате: 0 лей</p>
+    <button id="formShopBtn" class="modal-link" data-modal-id="1" >Оформить</button>
+
+    <button class="clear-cart-btn">Очистить</button>
+  </div>
+   <button id="ghg">Корзина</button>
+
+
+</div>
+
+              <!-- <div class="Lang">
+               <select id="language">
+                <option alt="ru" data-google-lang="ru" class="language__img">RUR</option>
+                <option alt="en" data-google-lang="en" class="language__img">EU</option>
+               </select>
+              </div> -->
+
+              </div>
+
+
+<div class="scrollWin"></div>
+
+<script>
+  document.querySelectorAll(".scrollWin").forEach(function(el) {
+  el.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+<script>
+  document.getElementById("contentOneBascetBtn").addEventListener("click", function() {
+  window.scrollTo({
+    top: window.pageYOffset + 750,
+    behavior: "smooth"
+  });
+});
+
+</script>
+
+
+               </div>
+
+
+<div class="blockTwo">
+
+
+  <section class="hero-section">
+    <div class="card-grid">
+      <a class="card2" href="cap3.html" onclick="filterProducts()">
+        <div class="card__background" style="background-image: url(../imgCategor/1.jpg); "></div>
+        <div class="card__content">
+          <p class="card__category">Category</p>
+          <h3 class="card__heading">Плюшевые игрушки</h3>
+        </div>
+      </a>
+
+      <a class="card2" href="cap2.html">
+        <div class="card__background" style="background-image: url(../imgCategor/2.png)"></div>
+        <div class="card__content">
+          <p class="card__category">Category</p>
+          <h3 class="card__heading">Букеты цветов</h3>
+        </div>
+      </a>
+      <a class="card2" href="cap3.html">
+        <div class="card__background" style="background-image: url(../imgCategor/32.jpg)"></div>
+        <div class="card__content">
+          <p class="card__category">Category</p>
+          <h3 class="card__heading">Праздничные шары</h3>
+        </div>
+        </a>
+        <a class="card2" href="cap.html">
+          <div class="card__background" style="background-image: url(../imgCategor/4.jpg)"></div>
+          <div class="card__content">
+            <p class="card__category">Category</p>
+            <h3 class="card__heading">Комнатные цветы</h3>
+          </div>
+        </a>
+
+        <div>
+
+  </section>
+
+<div class="blockContentTwo">
+  <div id="filterGrid">
+    <label for="price-filter" id="price-filterDenis"><span>Фильтрация</span></label><br><br>
+    <input type="" id="price-filter2" name="price-filter" placeholder="max-цена:"><br>
+    <input type="range" min="199" max="300" value="50" id="range-filter2" style="font-size: 14px;" oninput="showValue(this.value)"><br>
+
+
+
+    <div class="contentFilter">
+
+      <div class="FilterOneMenu">
+        <h3>Цветы <img src="../img/vector/1.png" id="FilterOneMenuImg"></h3>
+        <div class="FilterOneMenuLi">
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';"> Тюльпаны</li>
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';">  Розы</li>
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';"  >  Герберы</li>
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';" >  Орхидеи</li>
+          <li><input type="checkbox" id="scales" name="scales"  style="  font-family: 'Montserrat-Light';">  Каллам</li>
+          <li><input type="checkbox" id="scales" name="scales"  style="  font-family: 'Montserrat-Light';">  Пионы</li>
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';">  Микс</li>
+          <li><input type="checkbox" id="scales" name="scales" style="  font-family: 'Montserrat-Light';">  Монобукеты</li>
+        </div>
+        <script>
+          const filterOneMenu = document.querySelector('.FilterOneMenu');
+          filterOneMenu.addEventListener('click', toggleMenu);
+
+          function toggleMenu() {
+            const filterOneMenuLi = document.querySelector('.FilterOneMenuLi');
+            const filterOneMenuImg = document.querySelector('#FilterOneMenuImg');
+
+            filterOneMenuLi.classList.toggle('active');
+            filterOneMenuImg.style.transform = filterOneMenuImg.style.transform ? '' : 'rotate(-90deg)';
+          }
+
+        </script>
+
+
+
+      </div>
+
+
+
+
+      <div class="FilterOneMenu2">
+        <h3>Повод <img src="../img/vector/1.png" id="FilterOneMenuImg2"></h3>
+        <div class="FilterOneMenuLi2">
+          <li><input type="checkbox" id="scales" name="scales" >  День рождение </span></li>
+          <li><input type="checkbox" id="scales" name="scales" > Поздравление </li>
+          <li><input type="checkbox" id="scales" name="scales" >  Сказать люблю</li>
+          <li><input type="checkbox" id="scales" name="scales" >  Благодарность</li>
+          <li><input type="checkbox" id="scales" name="scales" >  На свадьбу</li>
+          <li><input type="checkbox" id="scales" name="scales" >  Для ребенка</li>
+          <li><input type="checkbox" id="scales" name="scales" >  Извинения</li>
+        </div>
+        <script>
+          const filterOneMenu2 = document.querySelector('.FilterOneMenu2');
+          filterOneMenu2.addEventListener('click', toggleMenu);
+
+          function toggleMenu() {
+            const filterOneMenuLi = document.querySelector('.FilterOneMenuLi2');
+            const filterOneMenuImg = document.querySelector('#FilterOneMenuImg2');
+
+            filterOneMenuLi.classList.toggle('active');
+            filterOneMenuImg.style.transform = filterOneMenuImg.style.transform ? '' : 'rotate(-90deg)';
+          }
+
+        </script>
+      </div>
+
+
+
+
+      <div class="FilterOneMenu3">
+        <h3>Кому <img src="../img/vector/1.png" id="FilterOneMenuImg3"></h3>
+        <div class="FilterOneMenuLi3">
+          <li><input type="checkbox" id="scales" name="scales" > Маме</li>
+          <li><input type="checkbox" id="scales" name="scales" > Женщине</li>
+          <li><input type="checkbox" id="scales" name="scales" > Семье</li>
+          <li><input type="checkbox" id="scales" name="scales" > Подруге</li>
+          <li><input type="checkbox" id="scales" name="scales" > Мужчине</li>
+          <li><input type="checkbox" id="scales" name="scales" > Сестре</li>
+          <li><input type="checkbox" id="scales" name="scales" > Дочери</li>
+          <li><input type="checkbox" id="scales" name="scales" > Ребенку</li>
+          <li><input type="checkbox" id="scales" name="scales" > Любимой</li>
+        </div>
+
+
+                  <script>
+                    const filterOneMenu3 = document.querySelector('.FilterOneMenu3');
+                    filterOneMenu3.addEventListener('click', toggleMenu);
+
+                    function toggleMenu() {
+                    const filterOneMenuLi = document.querySelector('.FilterOneMenuLi3');
+                    const filterOneMenuImg = document.querySelector('#FilterOneMenuImg3');
+
+                    filterOneMenuLi.classList.toggle('active');
+                    filterOneMenuImg.style.transform = filterOneMenuImg.style.transform ? '' : 'rotate(90deg)';
+                      }
+
+                  </script>
+                </div>
+
+                <button onclick="filterProducts()">Применить фильтр</button>
+               </div>
+
+
+
+<a href="../Pages/Skidki.html" class="saleBlock">
+<h1>SALE <span style='font-weight: 100;font-family:Montserrat'>10%</span></h1>
+<img src="../IMGSALE/2.jpg" alt="">
+</a> 
+              </div>
+
+               <div class="blockNull">
+                <h2>Каталог: Букеты цветов</h2>
+              </div>
+
+              <div id="home">
+
+
+                <div class="product" id="product1">
+                  <div class="product-menu" data-target="#modal1">
+                    <img src="../img/d1.jpg" id="img1">
+                    <div class="contentGrid">
+                    <h5>Новинка</h5>
+                    <h4 id="contentGridH4">Белые Тюльпаны</h4>
+                    <p id="cenaGrid">285 лей</p>
+                    </div>
+
+
+
+                      <!-- <div class="fowor1">
+                </div> -->
+                    </div>
+
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal1" class="modal">
+                    <div class="modal-content">
+                   <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                    <div class="modal-content-img">
+                      <img src="../img/d1.jpg" alt="">
+                        <img src="../img/T1.jpg">
+                        <img src="../img/T9.jpg">
+                        
+
+                       </div>
+                       <div class="click">
+                      <img src="../img/d1.jpg" id="img1Modal">
+
+                      <span class="prev">&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                      <div id="one"><h4 id="contentGridH4">Белые тюльпаны</h4> - прекрасное сочетание элегантности и нежности. Этот свежий и изящный букет, состоящий из качественных белых тюльпанов, станет идеальным подарком для любого случая. Он будет прекрасным дополнением к праздничному настроению, добавляя нотки чистоты и свежести. Сделайте радостный жест и порадуйте близких этим восхитительным букетом белых тюльпанов.</div>
+                    <br>
+                    <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды Белые тюльпаны. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                    <div class="zamer">
+                      <nav>Высота:</nav>:120 см <br>
+                      <nav></nav> 
+                    <div class="contact">
+                      Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                    </div>
+                    </div>
+                    </nav>
+                      <p id="cenaGrid" >285 лей</p>
+                      <button class="add-to-cart-btn"> В корзину</button>
+                    </div>
+                  </div>
+
+
+
+                  <div class="product" id="product2">
+                    <div class="product-menu" data-target="#modal2">
+                    <img src="../img/d12.jpg" id="img2">
+                    <div class="contentGrid">
+                    <h4  id="contentGridH4"> Синий Гиацинт</h4>
+                    <p id="cenaGrid">270 лей</p>
+                    </div>
+
+                    </div>
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+<!-- <span style="margin-top: -180px;"></span> -->
+
+                  <div id="modal2" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d12.jpg" >
+                          <img src="../img/T12.jpg">
+                          <img src="../img/Z2.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d12.jpg" id="img2Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4"> Синий Гиацинт</h4> - волшебный и притягательный цветок, который привнесет в ваш дом атмосферу романтики и весенней свежести. Этот прекрасный букет состоит из изысканных синих гиацинтов, которые обладают неповторимым ароматом и уникальной красотой. Они будут прекрасным подарком для важного события или просто для выражения любви и внимания к близкому человеку. Создайте волшебный момент и преподнесите этот изумительный букет синих гиацинтов, чтобы подарить радость и восхищение.</div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды Синий Гиацинта Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                       
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">250 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+                <div class="product" id="product3">
+                  <div class="product-menu" data-target="#modal3">
+                    <img src="../img/d13.jpg" id="img3">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Голубые Гипсофилы</h4>
+                      <p id="cenaGrid">249 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal3" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d13.jpg" >
+                          <img src="../img/T13.jpg">
+                          <img src="../img/Z3.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d13.jpg" id="img3Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Голубые Гипсофилы</h4> - нежные и воздушные цветочные композиции, которые придают особую легкость и изящество любому интерьеру. Этот букет состоит из множества голубых гипсофил, известных также как "беби-здравец". Их маленькие цветочки создают впечатление облачка летнего неба. Голубые гипсофилы идеально дополняют другие цветы, придают им нежность и романтичность. Этот букет станет прекрасным подарком для создания атмосферы нежности и чарующей красоты. Украсьте свой дом или подарите радость близким с помощью этого волшебного букета голубых гипсофил.</div>
+                      <h5>Освещение</h5><span> -Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды Гипсофилы.Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким</span> <br>
+                     
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                        
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">239 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+                <div class="product" id="product4">
+                  <div class="product-menu" data-target="#modal4">
+                    <img src="../img/d14.jpg" id="img4" role="presentation" style="max-width: none; max-height: none;">
+                    <div class="contentGrid">
+                    <h4  id="contentGridH4">Белая Гвоздика</h4>
+                    <p id="cenaGrid">219 лей</p>
+                    </div>
+                    </div>
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal4" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d14.jpg" >
+                          <img src="../img/T14.jpg">
+                          <img src="../img/Z4.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d14.jpg" id="img4Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Белые гвоздика</h4> - символ классической красоты и элегантности. Этот изысканный букет состоит из свежих белых гвоздик, известных своими прекрасными цветками и притягательным ароматом. Белые гвоздики являются символом чистоты и нежности, идеально подходящими для особых моментов в жизни. Они станут идеальным подарком для свадеб, юбилеев, романтических встреч или просто для того, чтобы выразить свою любовь и восхищение. Подарите этот великолепный букет белых гвоздик, чтобы подчеркнуть особенность и элегантность момента.</div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды Белые Гвоздики. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:50 см <br>
+                        
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">219 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                  <div class="product"  id="product5">
+                    <div class="product-menu" data-target="#modal5">
+                    <img src="../img/d15.jpg" id="img5">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Алые Тюльпаны</h4>
+                      <p id="cenaGrid">259 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal5" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d15.jpg" >
+                          <img src="../img/T15.jpg">
+                          <img src="../img/Z5.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d15.jpg" id="img5Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Алые Тюльпаны</h4>- яркий и страстный выбор для создания запоминающегося впечатления. Этот красочный букет состоит из качественных алых тюльпанов, символизирующих любовь и страсть. Их насыщенный цвет и изящная форма привлекают внимание и наполняют пространство энергией. Алые тюльпаны подходят для выражения глубоких чувств и создания романтической атмосферы. Этот букет станет прекрасным подарком на День святого Валентина, юбилей, свадьбу или просто для того, чтобы показать свою страсть и восхищение. </div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                        
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">249 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                <div class="product"  id="product6">
+                  <div class="product-menu" data-target="#modal6">
+                    <img src="../img/d6.jpg" id="img6" >
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Розовые тюльпаны</h4>
+                      <p id="cenaGrid">265 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal6" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d6.jpg" >
+                          <img src="../img/T6.jpg">
+                          <img src="../img/Z6.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d6.jpg" id="img6Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Розовые тюльпаны</h4> - нежный и романтичный выбор, который наполняет пространство теплотой и нежностью. Этот очаровательный букет состоит из прекрасных розовых тюльпанов, символизирующих нежные чувства, любовь и благодарность. Их нежный оттенок и изящная форма придают атмосфере мягкость и романтичность. Розовые тюльпаны подходят для различных поводов - от дня рождения до годовщины свадьбы или просто для того, чтобы выразить свою заботу и внимание к близким людям. </div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                      
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">225 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                <div class="product"  id="product7">
+                  <div class="product-menu" data-target="#modal7">
+                    <img src="../img/7.png" id="img7">
+                    <div class="contentGrid">
+                      <h4>Гипсофилы</h4>
+                      <p id="cenaGrid">199 лей</p>
+                      </div>
+                    </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal7" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/7.png" >
+                          <img src="../img/T13.jpg">
+                          <img src="../img/Z7.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/7.png" id="img7Modal">
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Гипсофилы</h4> -  легкий и воздушный выбор для создания изысканной атмосферы. Этот утонченный букет состоит из множества гипсофил, также известных как "здравец" или "миллет". Их маленькие белые цветочки создают эффект облачка нежности и добавляют легкости любому декору. Гипсофилы идеально дополняют другие цветы, придают им свежесть и романтичность. Они подходят для различных событий - от свадеб до дней рождения, а также для создания впечатляющих цветочных композиций.</div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                      
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">199 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                  <div class="product"  id="product8">
+                    <div class="product-menu" data-target="#modal8">
+                    <img src="../img/d16.jpg" id="img8">
+                    <div class="contentGrid">
+                      <h4>Нежные Пионы</h4>
+                      <p id="cenaGrid">295 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+                  <div id="modal8" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d16.jpg" >
+                          <img src="../img/T16.jpg">
+                          <img src="../img/Z8.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d16.jpg" id="img8Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Фиолетовые Пионы</h4> - великолепный выбор, чтобы создать волшебную атмосферу изящества и романтики. Этот прекрасный букет состоит из нежных фиолетовых пионов, которые известны своими пышными цветками и неповторимым ароматом. Фиолетовый цвет пионов символизирует роскошь, утонченность и магию. Эти цветы прекрасно дополняют любой интерьер и станут великолепным подарком для особых моментов в жизни, таких как юбилей, романтический вечер или просто для того, чтобы показать свою нежность и восхищение.</div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                       
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">250 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+                  <div class="product"  id="product9">
+                    <div class="product-menu" data-target="#modal9">
+                    <img src="../img/d2.jpg" id="img9">
+                    <div class="contentGrid">
+                      <h4>Mix Хризантем</h4>
+                      <p id="cenaGrid">225 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal9" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d2.jpg" >
+                          <img src="../img/T14.jpg">
+                          <img src="../img/Z9.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d2.jpg" id="img9Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Mix Хризантем</h4> - яркий и разноцветный выбор, чтобы добавить радости и разнообразия в ваш день. Этот красочный букет состоит из различных сортов хризантем, представленных в разных цветах, формах и размерах. Он создает живописное сочетание ярких оттенков, которые привносят свежесть и энергию в любое пространство. Букет "Mix хризантем" подходит для любого повода - от празднования дня рождения до поздравления с успехом или просто для того, чтобы подарить улыбку и хорошее настроение.</div>
+                      
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                      
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">225 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+                  <div class="product" id="product10">
+                    <div class="product-menu" data-target="#modal10">
+                    <img src="../img/d3.jpg" id="img10">
+                    <div class="contentGrid">
+                    <h6>Хит продаж</h6>
+                    <h4 id="contentGridH4">Розовые Тюльпаныи</h4>
+                    <p id="cenaGrid">275 лей</p>
+                    </div>
+                    </div>
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal10" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d3.jpg" >
+                          <img src="../img/T17.jpg">
+                          <img src="../img/Z10.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d3.jpg" id="img10Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Розовые Тюльпаныи</h4> - нежный и романтичный выбор, который приносит красоту и тепло. Этот великолепный букет состоит из прекрасных розовых тюльпанов, символизирующих любовь, нежность и элегантность. Их нежные оттенки и изящная форма придают атмосфере романтичность и чувственность. Розовые тюльпаны идеально подходят для различных событий - от дня рождения до дня святого Валентина или просто для того, чтобы выразить свои чувства и благодарность к близким людям. </div>
+                    
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                   
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">270 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                  <div class="product" id="product11">
+                    <div class="product-menu" data-target="#modal11">
+                    <img src="../img/d7.jpg" id="img11">
+                    <div class="contentGrid">
+                    <h4  id="contentGridH4">Букет Mix</h4>
+                    <p id="cenaGrid">230 лей</p>
+                    </div>
+                    </div>
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal11" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d7.jpg" >
+                          <img src="../img/d4.jpg">
+                          <img src="../img/Z11.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d7.jpg" id="img11Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Букет Mix</h4> - удивительное сочетание разнообразных цветов и текстур, чтобы создать впечатляющий и уникальный цветочный ансамбль. Этот многоликий букет состоит из различных видов цветов, таких как розы, лилии, хризантемы, тюльпаны и другие, представленных в разных цветах и формах. Благодаря этому, каждый цветок в букете имеет свою особую красоту, а вместе они создают яркое и впечатляющее зрелище. Букет Mix идеально подходит для любого повода - от праздника до поздравления или просто для того, чтобы подарить радость и улыбку.</div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                     
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">250 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                <div class="product" id="product12">
+                  <div class="product-menu" data-target="#modal12">
+                    <img src="../img/d18.jpg" id="img12">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Хризантемы с Розами</h4>
+                      <p id="cenaGrid">239 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal12" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d18.jpg" >
+                          <img src="../img/T11.jpg">
+                          <img src="../img/Z12.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d18.jpg" id="img12Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Хризантемы с Розами</h4> - восхитительное сочетание элегантности и изысканности. Этот прекрасный букет состоит из красивых хризантем и нежных роз, создавая прекрасное сочетание цветов и текстур. Хризантемы символизируют долговечность и радость, а розы выражают любовь и нежность. Вместе они создают цветочную композицию, которая будет прекрасным подарком для любого повода - от дня рождения до юбилея или просто для того, чтобы выразить свои искренние чувства и признание. </div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                    
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">239 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                <div class="product" id="product13">
+                  <div class="product-menu" data-target="#modal13">
+                    <img src="../img/d8.jpg" id="img13" >
+                    <div class="contentGrid">
+                    <h4  id="contentGridH4">Белые Тюльпаны</h4>
+                    <p id="cenaGrid">249 лей</p>
+                    </div>
+                    </div>
+                    <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal13" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d8.jpg" >
+                          <img src="../img/T14.jpg">
+                          <img src="../img/Z13.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d8.jpg" id="img13Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Белые тюльпаны</h4> -символ чистоты, нежности и простоты. Этот прекрасный букет состоит из свежих белых тюльпанов, которые обладают элегантной простотой и изысканной красотой. Белые тюльпаны являются идеальным выбором для создания атмосферы свежести и спокойствия. Они станут прекрасным подарком для любого случая - от дня рождения до дня свадьбы или просто для того, чтобы выразить свою благодарность и уважение к близким людям. </div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                     
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">219 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                  <div class="product"  id="product14">
+                    <div class="product-menu" data-target="#modal14">
+                    <img src="../img/d11.jpg" id="img14">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Большие Герберы</h4>
+                      <p id="cenaGrid">255 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal14" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d11.jpg" >
+                          <img src="../img/T7.jpg">
+                          <img src="../img/Z14.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d11.jpg" id="img14Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Большие Герберы</h4> -  великолепный выбор для создания яркой и эффектной композиции. Этот впечатляющий букет состоит из крупных гербер, которые привлекают внимание своими яркими цветами и большими размерами. Большие герберы добавляют красоты и энергии в любое пространство и мгновенно привлекают взгляды. Они станут прекрасным подарком для особых случаев, таких как юбилей, праздник или просто для того, чтобы порадовать и удивить близких людей.</div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                      
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">249 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+                <div class="product"  id="product15">
+                  <div class="product-menu" data-target="#modal15">
+                    <img src="../img/d17.jpg" id="img15">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Тюльпаны Красные</h4>
+                      <p id="cenaGrid">245 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                  </div>
+
+
+                  <div id="modal15" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/d17.jpg" >
+                          <img src="../img/T15.jpg">
+                          <img src="../img/Z15.png" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/d17.jpg" id="img15Modal">
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Тюльпаны Красные</h4> -страстный и яркий выбор, который привлекает внимание и создает атмосферу любви и страсти. Этот прекрасный букет состоит из свежих красных тюльпанов, символизирующих глубокие чувства и страсть. Их насыщенный красный цвет привлекает взгляды и вызывает волнение. Красные тюльпаны подходят для различных поводов - от дня рождения до дня святого Валентина или просто для того, чтобы выразить свою страсть и восхищение. </div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                        
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">225 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+                <div class="product"  id="product16">
+                  <div class="product-menu" data-target="#modal16">
+                    <img src="../img/two.jpg" id="img16">
+                    <div class="contentGrid">
+                      <h4  id="contentGridH4">Синий Ирис</h4>
+                      <p id="cenaGrid">199 лей</p>
+                      </div>
+                      </div>
+                      <button class="add-to-cart-btn" > В корзину </button>
+                  </div>
+
+
+
+                  <div id="modal16" class="modal">
+                    <div class="modal-content">
+                      <span><a href="General.html">Главная &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a> <a href="cap2.html">Букеты&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></span>
+                      <div class="modal-content-img">
+                        <img src="../img/two.jpg" >
+                          <img src="../img/Ttwo.jpg">
+                          <img src="../img/Z16.jpg" alt="">
+                         </div>
+                         <div class="click">
+                      <img src="../img/two.jpg" id="img16Modal" >
+
+                      <span class="prev" style="margin-left:0px;" >&#10094;</span>
+                      <span class="next">&#10095;</span>
+                      </div>
+                      <nav id="modal-content-info">
+                        <div id="one"><h4 id="contentGridH4">Синий ирис</h4>  - удивительный и изысканный выбор, который приносит в вашу жизнь волшебство и загадочность. Этот восхитительный букет состоит из красивых синих ирисов, которые обладают элегантной красотой и уникальной глубиной цвета. Синий цвет ирисов символизирует мудрость, таинственность и спокойствие. Синие ирисы подходят для различных поводов - от дней рождения до поздравлений с успехом или просто для того, чтобы придать особый акцент вашему интерьеру. </div>
+
+                      <div id="two"><h5>Освещение: </h5> Яркое, непрямое освещение западных или южных окон вполне покроет световые нужды замиокулькаса. Внимательно следите за ростом растения, так как при недостатке света оно начнёт вытягиваться и станет ломким. </div>
+                      <div class="zamer">
+                        <nav>Высота:</nav>:120 см <br>
+                     
+                      <div class="contact">
+                        Получить консультацию и уточнить наличие товара можно по телефону +373 780 40 495
+                      </div>
+                      </div>
+                      </nav>
+                    <p id="cenaGrid">239 лей</p>
+                      <button class="add-to-cart-btn"> В корзину </button>
+                    </div>
+                  </div>
+
+
+
+                  <div class="coment">
+                  <form class="comment-form">
+                    <label for="comment-input" style="font-size: 1.4em; font-family: fantasy;">Оставьте комментарий:</label>
+                    <input type="text" id="comment-input">
+                    <button type="submit">Отправить</button>
+                    <button class="delete_button">Удалить</button>
+
+                  </form>
+
+                  <!-- div для вывода комментариев -->
+                  <div class="comments" id="comments2"></div>
+                </div>
+
+    
+
+                </div>
+
+</div>
+
+<div class="galerea">
+<h1>Галерея</h1>
+  <figure data-behold-id="vrV0Pn4rcwkzYYrL4fEq"></figure>
+  <script src="https://w.behold.so/widget.js" type="module"></script>
+
+
+</div>
+
+
+                <div class="CapContainer">
+
+                  <div class="container" id="container">
+                    <div class="closeBnt">&nbsp;</div>
+                        <div class="form-container sign-up-container" style=margin-top{margin-top:120px}>
+                            <form action="#">
+                                <h1 id="ModalMenuH">Зарегистрироваться</h1>
+                                <div class="social-container">
+                                    <a href="https://www.facebook.com/orlioglo.denis/" target="_blank" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <!-- <a href="https://www.instagram.com/orhideya_flowers.md/" target="_blank" class="social"><i class="fa-brands fa-instagram"></i></a> -->
+                                </div>
+                                <span id="ModalMenuS"></span>
+                                <input type="text" placeholder="Name" />
+                                <input type="email" placeholder="Email" />
+                                <input type="password" placeholder="Password" style="margin-bottom: 20px;"/>
+                                <button>зарегистрироваться</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                                <h1 id="ModalMenuH">Войти</h1>
+                                <div class="social-container">
+                                    <a href="https://www.facebook.com/orlioglo.denis/" target="_blank" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <!-- <a href="https://www.instagram.com/orhideya_flowers.md/" target="_blank" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+                                </div>
+                                <span id="ModalMenuS"></span>
+                                <input type="email" placeholder="Email" />
+                                <input type="password" placeholder="Password" />
+                                <button id="ModalMenuBtn">Войти</button>
+                            </form>
+                        </div>
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1 id="ModalMenuH">Привет, Друг</h1>
+                                    <p id="ModalMenuP">Только у нас самые  <br> свежие,красивые цветочки</p>
+                                    <button class="ghost" id="signIn" >войти</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Добро пожаловать</h1>
+                                    <p>Один клик и товар у вас</p>
+                                    <button class="ghost" id="signUp">зарегистрироваться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+
+
+                <script src="../Js/ModalOkno.js"></script>
+                <script src="../Js/ModalContent.js"></script>
+
+
+                <script>
+                  const containerOn = document.querySelector('.container');
+                const cart = document.querySelector('.cart');
+                
+                if (containerOn.style.display === 'block') {
+                  cart.style.display = 'none';
+                } else {
+                  cart.style.display = 'block';
+                }
+                
+                const containerO = document.querySelector('.container');
+                const cartO = document.querySelector('.cart');
+                
+                containerO.addEventListener('click', () => {
+                  cartO.style.display = 'none';
+                });
+                
+                </script>
+
+
+
+                <script>
+                  const formShopBtn = document.getElementById("formShopBtn");
+                const capContainer = document.querySelector(".CapContainer");
+                const container = document.getElementById("container");
+                
+                formShopBtn.addEventListener("click", function() {
+                  capContainer.style.display = "block";
+                });
+                
+                document.addEventListener("click", function(event) {
+                  if (event.target !== formShopBtn && !formShopBtn.contains(event.target)) {
+                    if (event.target !== container && !container.contains(event.target)) {
+                      capContainer.style.display = "none";
+                    }
+                  }
+                });
+                
+                
+                
+                const signUpButton = document.getElementById('signUp');
+                const signInButton = document.getElementById('signIn');
+                const container2 = document.getElementById('container');
+                
+                signUpButton.addEventListener('click', () =>
+                container2.classList.add('right-panel-active'));
+                
+                signInButton.addEventListener('click', () =>
+                container2.classList.remove('right-panel-active'));
+                
+                
+                
+                
+                // Получаем доступ к элементам страницы
+                const container3 = document.querySelector('#container');
+                const emailInput = container3.querySelector('input[type="email"]');
+                
+                </script>
+
+
+
+ <script src="../Js/modal.js"></script>
+  <script src="../Js/Filters_product.js"></script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+
+var fields = document.querySelectorAll('.field');
+
+for(var i = 0; i < fields.length; i++) {
+fields[i].addEventListener('focus', function() {
+  document.body.classList.add('is-focus');
+});
+
+fields[i].addEventListener('blur', function() {
+  document.body.classList.remove('is-focus', 'is-type');
+});
+
+fields[i].addEventListener('keydown', function(event) {
+  document.body.classList.add('is-type');
+  if((event.which === 8) && this.value === '') {
+    document.body.classList.remove('is-type');
+  }
+});
+}
+
+});
+</script>
+
+</div>
+
+
+<footer class="footer">
+  <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link sorry" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+      <li class="social-icon__item"><a class="social-icon__link sorry" href="#">
+          <ion-icon name="logo-vk"></ion-icon>
+      </a></li>
+      <li class="social-icon__item"><a class="social-icon__link"  href="https://instagram.com/orhideya_flowers.md?igshid=YmMyMTA2M2Y=">
+          <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <script>
+      const socialLinks = document.querySelectorAll('.sorry');
+
+      socialLinks.forEach(link => {
+          link.addEventListener('click', function(event) {
+              event.preventDefault();
+              alert('Приносим свои извинения, но в данный момент у нас нет данного сайта :(');
+          });
+      });
+  </script>
+  <ul class="menu" style="margin-left: -50px;">
+      <li class="menu__item"><a class="menu__link" href="#">Домой</a></li>
+      <li class="menu__item"><a class="menu__link" href="../Pages/AboutUs.html" >О нас</a></li>
+
+  </ul>
+  <p>&copy;2023 Project | Within the framework of Tekwill</p>
+  <div class="map_opener"><img src="../Photos/arrow-204-512.png" alt="">Карты</div>
+</footer>
+
+
+
+
+            
+
+            <div class="map">
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A49267aa5420b15835b3065f8530084cc14dee96a6bfed355f469765c925d73c2&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+            <script type="text/javascript">
+              const mapOpener = document.querySelector('.map_opener');
+              const map = document.querySelector('.map');
+              let isMapShown = false;
+              mapOpener.onclick = function()  {
+                if (!isMapShown) {
+                  map.style.display = 'block';
+                  isMapShown = true;
+                } else {
+                  map.style.display = 'none';
+                  isMapShown = false;
+                }
+              }
+            </script>
+
+<script src="../Js/jquery-3.6.0.min.js"></script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+</body>
+</html>
